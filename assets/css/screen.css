@@ -77,6 +77,9 @@ body {
     max-width: 1235px;
     width: 100%;
 }
+.inner.flex{
+    display: flex;
+}
 
 /* Usage:
 
@@ -1842,8 +1845,8 @@ Usage (In Ghost editor):
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 920px;
-    padding-right: 30px;
+    /*max-width: 920px;*/
+    /*padding-right: 30px;*/
 }
 
 .post-content img{
@@ -2291,28 +2294,35 @@ Usage (In Ghost editor):
     width: 80%;
 }
 
-.post-side-bar-content{
-    width: 20%;
-    float: right;
-    min-height: 500px;
-}
+/*.post-side-bar-content{*/
+    /*width: 20%;*/
+    /*float: right;*/
+    /*min-height: 500px;*/
+/*}*/
 
-.side-bar{
-    display: none;
-    float: right;
-    width: 20%;
-    background: #fff;
-    overflow: hidden;
-    /* margin: 0 20px 40px; */
-    min-height: 300px;
-    background-size: cover;
-    border-radius: 5px;
-    box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
-    transition: all .5s ease;
-    padding: 15px;
+/*.side-bar{*/
+    /*flex-grow: 1;*/
+    /*order: 2;*/
+    /*display: flex;*/
+    /*min-height: 300px;*/
+    /*padding: 15px;*/
+    /*min-width: 20%;*/
+    /*margin-top: -70px;*/
+    /*flex-direction: column;*/
+    /*!*border: 1px solid red;*!*/
+    /*!*display: none;*!*/
+    /*!*float: right;*!*/
+    /*!*background: #fff;*!*/
+    /*!*overflow: hidden;*!*/
+    /*!*!* margin: 0 20px 40px; *!*!*/
+    /*!*background-size: cover;*!*/
+    /*!*border-radius: 5px;*!*/
+    /*!*box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);*!*/
+    /*!*transition: all .5s ease;*!*/
+    /*!*justify-content: space-between;*!*/
+/*}*/
 
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
+/*.side-bar-old{*/
+
+/*}*/
+
